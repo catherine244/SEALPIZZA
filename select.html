@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Seal pizza</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/select.css">
+    <link rel="shortcut icon" href="images/icon.jpg" type="image/x-icon">
+
+</head>
+<body>
+    <div class="container-fluid">
+    
+        <h1 id="two">Pizza Crust</h1>
+        <h2>Thin crust</h2>
+        <div class="row">
+          <div class="col-md-4">
+    
+            <img src="images/sl.jpg" style="width:100%;height:500px ;">
+        
+          </div>
+          <div class="col-md-4">
+    
+            <img src="images/ny.jpg" style="width: 100%; height: 500px;">
+    
+          </div>
+          <div class="col-md-4">
+            <img src="images/sicilian.jpg" style="height:500px; width:100%;">
+      </div>
+        </div>
+        <h2 class="me">Thick Crust</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="images/thick2.jpg"  style="width: 100%; height: 500px;">
+          </div>
+    
+          <div class="col-md-4">
+            <img src="images/stuffed.jpg"  style="width: 100%; height: 500px;">
+    
+          </div>
+    
+          <div class="col-md-4">
+            <img src="images/thick3.jpg" style="width: 100%; height: 500px;">
+    
+          </div>
+        </div>
+    
+        <div class="order">
+          <h3>Place an Order</h3><br>
+          <div class="row">
+              <div class="col-md-3">
+                  <form  id="form2" action="index.html">
+                      Type:<br>
+                      <select class="form-control" id="type">
+                        
+                          <option value="Hawaiiana">Hawaiian</option>
+                          <option value="Regina">Regina</option>
+                          <option value="Chiken Mushroom">Chiken Mushroom</option>
+                          <option value="Chiken Bba">Chiken Bba</option>
+                          <option value="Peri Peri Chiken">Peri Peri Chiken</option>
+                          <option value="Veg Feast">Veg Feast</option>
+                          <option value="Chiken Tikka">Chiken Tikka</option>
+                      </select>
+                      Quantity:<br>
+                      <input type="number" class="form-control" name="quantity" id="quantity" value="" min="1" required><br>
+              </div>
+              <div class="col-md-3">
+                  Size:<br>
+                  <select id="size" class="form-control">
+                      <option value="1">Small</option>
+                      <option value="2">Medium</option>
+                      <option value="3">Large</option>
+                  </select>
+              </div>
+              <div class="col-md-3">
+                  Toppings:<br>
+                  <select id="toppings" class="form-control">
+                      <option id="mush" value="Mushroom">Mushroom</option>.<br>
+                      <option id="Green" value="Green pepper">Green pepper.<br>
+                      <option id=sauce value="Sausage">Sausage.<br>
+                      <option id="pep" value="Pepperoni">Pepperoni<br>
+                  </select>
+                  <br>
+              </div>
+              <div class="col-md-3">
+                  Crusts:<br>
+                  <select id="crusts" class="form-control">
+    
+                      <option value="Thin crust">Thin Crust</option>
+                      <option value="Thick Crust">Thick Crust</option>
+                      <option value="Deep Crust">Deep Crust</option>
+                      <option value="Cheese Filled Crust">Cheese Filled Crust</option>
+                      <option value="Stuffed Crust">Stuffed Crust</option>
+                  </select>
+              </div>
+          </div>
+          <br>
+          <div class="row">
+    
+              <div class="col-md-5"></div>
+              <div class="col-md-4">
+                  Delivery:<br>
+                  <select id="delivery-option">
+                      <option value="1">Delivery</option>
+                      <option value="2">No Delivery</option>
+                  </select><br><br>
+                  <button type="submit" class="btn btn-outline-danger" id="button" onclick="return totalPrice();">Checkout</button>
+              </div>
+          </div>
+              </div>
+          </div>
+    
+      </div>
+      <br>
+      
+      </form>
+    
+      </div>
+      <script src="js/script.js"></script>
+      <script src="js/jquery.js"></script>
+      <!-- <script src="js/bootstrap.min.js"></script> -->
+</body>
+</html>
+
