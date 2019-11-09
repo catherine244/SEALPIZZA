@@ -7,23 +7,31 @@
     font-size: 30px;
     margin-left: 15px;
   }
+  #indicators{
+      display: none;
+  }
   #carousel h1{
       font-weight:bolder;
       font-size: 30px;
       font-family: Arial, Helvetica, sans-serif;
       text-align: center;
       margin-top: 5%;
-      color: azure;
+      color:black;
+      padding-top: 2%;
+     }
+     .background-5{
+         background-image: url('../images/sl.jpg');
      }
 #carousel p{
     font-size: 20px;
     text-align: center;
     font-family: fantasy;
     margin-top: 3%;
-    color:white;
+    color:black;
+    padding-bottom: 2%;
 }
 #carousel{
-    background-image: url( "https://bit.ly/2qtsMA0");
+    background-image: url( "https://bit.ly/2JZAOHV");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -43,4 +51,7 @@ margin-top: 2%;
     font-weight: bold;
     font-size: 30px;
     color: black;
+}
+.head{
+    background-image: url("https://bit.ly/2NsypHB ");
 }

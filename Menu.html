@@ -1,126 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Seal pizza</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/Menu.css">
-    <link rel="shortcut icon" href="images/icon.jpg" type="image/x-icon">
-
+    <title>pizza crujiente</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/Menu.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
 </head>
 <body>
-    <div class="container-fluid">
-    
-        <h1 id="two">Pizza Crust</h1>
-        <h2>Thin crust</h2>
-        <div class="row">
-          <div class="col-md-4">
-    
-            <img src="images/sl.jpg" style="width:100%;height:500px ;">
-        
-          </div>
-          <div class="col-md-4">
-    
-            <img src="images/ny.jpg" style="width: 100%; height: 500px;">
-    
-          </div>
-          <div class="col-md-4">
-            <img src="images/sicilian.jpg" style="height:500px; width:100%;">
-      </div>
+    <section id="Home" class="first">
+        <div id="mySidenav" class="sidenav">
+            <div class="head">
+                <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarMenu">
+                        <ul class="navbar-nav ml-auto ull ">
+                            <li class="nav-item active">
+                                <a href="index.html" class="nav-link">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="Menu.html" class="nav-link">MENU</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact.html" class="nav-link">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                  </nav>
+                </div>
         </div>
-        <h2 class="me">Thick Crust</h2>
-        <div class="row">
-          <div class="col-md-4">
-            <img src="images/thick2.jpg"  style="width: 100%; height: 500px;">
-          </div>
+          <div id="head">
+            <h1>SEAL PIZZA</h1>
+                <p>Join us for the best pizza deals!<br>Dine In - Take Out</p>
+            </div>
+             </section>
+    <section id="menu">
+        <h2>Pizza crust</h2>
+        <h3>Thin Crust</h3>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="img1">
+                        <h4>Neapolitan Pizza</h4>
+                        <a href="#order"><img src="images/neapizza.jpg" rel="Neapolitan Pizza" ></a>
+                    </div>
+                    <div class="description1">
+                        <p>The classic Italian pizza. <br> Made with flour such as Caputo, topped with <br>San Marzano tomato sauce and baked in <br>a high temperature wood-fired oven.<br><em>Small....600RWF</em><br><em>Medium....1200RWF</em><br><em>Large....1800RWF</em></p>
+
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="img2">
+                        <h4>New York-Style Pizza</h4>
+                        <a href="#order"><img src="images/ny.jpg" rel="New York-Style Pizza"></a>
+                    </div>
+                    <div class="description2">
+                        <p>Thin, typically made with high gluten flour.<br>  Baked at 450-550F.<br>  The Jersey style is "upside down".<br> Cheese first, then sauce.<br><em>Small....500RWF</em><br><em>Medium....1000RWF</em><br><em>Large....1500RWF</em></p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="img3">
+                        <h4>St. Louis Pizza </h4>
+                        <a href="#order"><img src="images/sl.jpg" rel="st. Luis pizza"></a>
+                    </div>
+                    <div class="description3">
+                        <p>A thin crust pizza popular in St. Louis.<br>  This style of pizza has two distinguishing characteristics: <br> an unleavened crust and Provel cheese.<br><em>Small....450RWF</em><br><em>Medium....900RWF</em><br><em>Large....1350RWF</em></p>
+                    </div>
+                </div>
+            </div> 
+        <div id="thick">
+            <h3>Thick Crust</h3>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="img4">
+                        <h4>Stuffed</h4>
+                        <a href="#order"><img src="images/stuffed.jpg" rel="Stuffed" ></a>
+                    </div>
+                    <div class="description4">
+                        <p>Similar to Deep dish, but a top layer<br> of dough is placed on the pizza,<br> hence the term "stuffed".<br><em>Small....700RWF</em><br><em>Medium....1400RWF</em><br><em>Large....2100RWF</em></p>
     
-          <div class="col-md-4">
-            <img src="images/stuffed.jpg"  style="width: 100%; height: 500px;">
-    
-          </div>
-    
-          <div class="col-md-4">
-            <img src="images/thick3.jpg" style="width: 100%; height: 500px;">
-    
-          </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="img5">
+                        <h4>Deep Dish Pizza</h4>
+                        <a href="#order"><img src="images/img1.jpg" rel="Deep Dish Pizza"></a>
+                    </div>
+                    <div class="description5">
+                        <p>A Chicago style pizza made a in a deep dish pan.<br>The crust gets it's flavor mostly from fat,<br> usually oil or lard, as opposed to fermentation.<br><em>Small....800RWF</em><br><em>Medium....1600RWF</em><br><em>Large....2400RWF</em></p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="img6">
+                        <h4>Sicilian Pizza</h4>
+                        <a href="#order"><img src="images/sicilian.jpg" rel="Sicilian Pizza"></a>
+                    </div>
+                    <div class="description6">
+                        <p>A thick pizza baked in a square or rectangle-shaped pan. <br> Cut into square pieces.<br><em>Small....600RWF</em><br><em>Medium....1200RWF</em><br><em>Large....1800RWF</em></p>
+                    </div>
+                </div>
+            </div>              
         </div>
-    
-        <div class="order">
-          <h3>Place an Order</h3><br>
-          <div class="row">
-              <div class="col-md-3">
-                  <form  id="form2" action="index.html">
-                      Type:<br>
-                      <select class="form-control" id="type">
+        <div class="top">
+            <h2>Toppings</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div>
+                            <h4>Simple Vegetarian</h4>
+                            <ul>
+                                <li>Parmesan cheese </li>
+                                <li>Tomato sauce</li>
+                                <li>Red and white onions</li>
+                                <li>Red,green and red pepper</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div>
+                            <h4>Special Vegetarian</h4>
+                            <ul>
+                                <li>Parmesan cheese </li>
+                                <li>Tomato sauce</li>
+                                <li>Red and white onions</li>
+                                <li>Red,green and red pepper</li>
+                                <li>mushrooms and tofu</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div>
+                            <h4 style="margin-left:10%">Beef</h4>
+                            <ul>
+                                <li>Parmesan cheese </li>
+                                <li>Tomato sauce</li>
+                                <li>Red and white onions</li>
+                                <li>Red,green and red pepper</li>
+                                <li>Minced beef</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div>
+                            <h4 style="margin-left:10%">Pepperoni</h4>
+                            <ul>
+                                <li>Parmesan cheese </li>
+                                <li>Tomato sauce</li>
+                                <li>Red and white onions</li>
+                                <li>Red,green and red pepper</li>
+                                <li>Pepperoni</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+    <section id="order">
+         <div class="well" style="margin-top:5%">
+                <h3>Please fill in the form below to get your order:</h3>
+                <div class="row">
+                    <div class="col-sm-3">
+                    <form class="newInputs">
+                        <p>Pizza crust</p>
+                        <select id="uno">
+                            <option value="none"></option>
+                            <option value="Neapolitan Pizza">Neapolitan Pizza</option>
+                            <option value="New York-Style Pizza">New York-Style Pizza</option>
+                            <option value="St. Louis Pizza">St. Louis Pizza</option>
+                            <option value="Stuffed">Stuffed</option>
+                            <option value="Deep Dish Pizza">Deep Dish Pizza</option>
+                            <option value="Sicilian Pizza">Sicilian Pizza</option>
+                        </select>
+                        <p>Pizza size</p>
+                        <select id="due">
+                            <option value="none"></option>
+                            <option value="Small">Small</option>
+                            <option value="Medium">Medium</option>
+                            <option value="Large">Large</option>
+                        </select>
+                        <p>Number</p>
+                        <input type="text" id="tre" placeholder="Number" ><br><br>
+
+                        <!-- <label id="quatro" for="toppings">Toppings</label><br> -->
+                        <p>Toppings</p>
+                        <select id="quatro">
+                            <option></option>
+                            <option value="Simple Vegetarian">Simple Vegetarian</option>
+                            <option value="Special Vegetarian">Special Vegetarian</option>
+                            <option value="Beef">Beef</option>
+                            <option value="Pepperoni" >Pepperoni</option>
+                        </select>
+                        <button type="submit" id="submit">Place Order</button>
                         
-                          <option value="Regina">Regina</option>
-                          <option value="Chiken Mushroom">Chiken Mushroom</option>
-                          <option value="Hawaiiana">Hawaiian</option>
-                          <option value="Chiken Bba">Chiken Bba</option>
-                          <option value="Peri Peri Chiken">Peri Peri Chiken</option>
-                          <option value="Veg Feast">Veg Feast</option>
-                          <option value="Chiken Tikka">Chiken Tikka</option>
-                      </select>
-                      Quantity:<br>
-                      <input type="number" class="form-control" name="quantity" id="quantity" value="" min="1" required><br>
-              </div>
-              <div class="col-md-3">
-                  Size:<br>
-                  <select id="size" class="form-control">
-                      <option value="1">Small</option>
-                      <option value="2">Medium</option>
-                      <option value="3">Large</option>
-                  </select>
-              </div>
-              <div class="col-md-3">
-                  Toppings:<br>
-                  <select id="toppings" class="form-control">
-                      <option id="mush" value="Mushroom">Mushroom</option>.<br>
-                      <option id="Green" value="Green pepper">Green pepper.<br>
-                      <option id=sauce value="Sausage">Sausage.<br>
-                      <option id="pep" value="Pepperoni">Pepperoni<br>
-                  </select>
-                  <br>
-              </div>
-              <div class="col-md-3">
-                  Crusts:<br>
-                  <select id="crusts" class="form-control">
-    
-                      <option value="Thin crust">Thin Crust</option>
-                      <option value="Thick Crust">Thick Crust</option>
-                      <option value="Deep Crust">Deep Crust</option>
-                      <option value="Cheese Filled Crust">Cheese Filled Crust</option>
-                      <option value="Stuffed Crust">Stuffed Crust</option>
-                  </select>
-              </div>
-          </div>
-          <br>
-          <div class="row">
-    
-              <div class="col-md-5"></div>
-              <div class="col-md-4">
-                  Delivery:<br>
-                  <select id="delivery-option">
-                      <option value="1">Delivery</option>
-                      <option value="2">No Delivery</option>
-                  </select><br><br>
-                  <button type="submit" class="btn btn-outline-danger" id="button" onclick="return totalPrice();">Checkout</button>
-              </div>
-          </div>
-              </div>
-          </div>
-    
-      </div>
-      <br>
-      
-      </form>
-    
-      </div>
-      <script src="js/script.js"></script>
-      <script src="js/jquery.js"></script>
-      <!-- <script src="js/bootstrap.min.js"></script> -->
+                    </form>
+                    <div id="cinco">
+
+                    </div>
+                    <h3>Pizza Delivery</h3>
+                    <p>Do you want your pizza to be delivered? </p>
+                    <form>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="delivery1" value="Yes">
+                            <label class="form-check-label" for="inlineRadio1">Yes</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="delivery2" value="No">
+                            <label class="form-check-label" for="inlineRadio1">No</label>
+                        </div>
+                    </form>
+                    <button type="submit" id="view">Delivery</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div> 
+  </div>
 </body>
 </html>
-

@@ -1,0 +1,11 @@
+#cont{
+    background-image: url("https://bit.ly/2NsypHB");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+#cont h1{
+    color: black;
+    text-align: center;
+}
