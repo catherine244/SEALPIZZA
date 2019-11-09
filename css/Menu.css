@@ -39,17 +39,17 @@ img{
   width:20%;
   height:20%;
 }
-/* h3{
+h3{
   font-family: 'Dancing Script', cursive;
   text-align: center;
   padding-top:2%;
   padding-bottom:2%;
-} */
+}
 .well{
   opacity: 0.8;
   border-radius: 35%;
 }
-/* 
+
 .description1 ,.description2, .description3, .description4, .description5, .description6{
   display:none;
 }
@@ -62,4 +62,4 @@ img{
 }
 #order h3{
   font-family: fantasy;
-} */
+}
