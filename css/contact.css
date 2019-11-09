@@ -9,3 +9,20 @@
     color: black;
     text-align: center;
 }
+#username{
+width: 40vh;
+margin-left:1vw;
+color:white;
+}
+#email{
+margin-left: 1vw;
+color:white;
+width: 40vh;
+/* margin-right: 50vh; */
+}
+#message{
+color:white;
+margin-left: 4vh;
+width: 50vw;
+/* margin-right: 40vh; */
+}
