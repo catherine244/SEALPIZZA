@@ -26,3 +26,16 @@
   font-family: fantasy;
   text-align: center;
 }
+.img2{
+  margin-left: 10%;
+  width: 90%;
+}
+
+em{
+  color: darkblue;
+  font-family: bolder; 
+}
+img{
+  width:20%;
+  height:20%;
+}
