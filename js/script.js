@@ -133,7 +133,7 @@ $(document).ready(function(){
         if($('#delivery1:checked').val()){
             var place =prompt('please enter your location for pizza delivery')
             if(place!==null){
-                alert('your pizza will be delivered to' +'  ' +  place + '.' + ' Thank you.')
+                alert(' Delivery fee is 150 ,your pizza will be delivered to' +'  ' +  place + '.' + ' Thank you.')
             }else{
                 alert('please input a valid location ')
             }
