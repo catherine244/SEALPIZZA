@@ -12,71 +12,75 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="head">
-                <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarMenu">
-                        <ul class="navbar-nav ml-auto ull ">
-                            <li class="nav-item active">
-                                <a href="index.html" class="nav-link">HOME</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="Menu.html" class="nav-link">MENU</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="contact.html" class="nav-link">CONTACT</a>
-                            </li>
-                        </ul>
-                    </div>
-                  </nav>
-                </div>
-<div class="container-fluid contact-us transparent">
-    <div id="cont">
-        <div class="Contacts">
-            <h1>CONTACT US</h1>
-            <form method="post" action=" /automations/{workflow_id}/emails/{workflow_email_id}/actions/start" id="contacts">
-                <div class="row">
-                  <div class="col-lg-6">
-                    <input type="text" name="name" placeholder="Name..." class="form-control mb-4" id="username" style="background-color: transparent;">
-                  </div>
-                  <div class="col-lg-6">
-                    <input type="email" name="Email" id="email" placeholder="Email..." class="form-control mb-4" style="background-color: transparent;">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-lg-12">
-                      <textarea name="name" rows="3" cols="10" placeholder="Your message here..." class="form-control rounded-0" id="message" style="background-color: transparent;"></textarea>
-                  </div>
-
-                  <button class="btn btn-default mybtn" id="submit">submit</button>
-                </div>
-                
-              </form>
+  <div class="container-fluid">
+    <div class="head">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav ml-auto ull ">
+            <li class="nav-item active">
+              <a href="index.html" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a href="Menu.html" class="nav-link">MENU</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">CONTACT</a>
+            </li>
+          </ul>
         </div>
+      </nav>
     </div>
-    <div class="container">
-            <div class="header">  
-            </div>
-            <div class="text-center">
-                <address id="contact">
-                  <strong>SEAL PIZZA</strong><br>
-                 Ngong Lane Plaza<br>
-                  Nairobi, 00600-Kilimani<br>
-                </address>
-        
-                <address>
-                  <strong>Customer Care</strong><br>
-                  <a href="mailto:ccayreen24@gmail.com">ccayreen24@gmail.com</a>
-                </address>
+    <div class="container-fluid contact-us transparent">
+      <div id="cont">
+        <div class="Contacts">
+          <h1>CONTACT US</h1>
+          <form method="post" action=" /automations/{workflow_id}/emails/{workflow_email_id}/actions/start"
+            id="contacts">
+            <div class="row">
+              <div class="col-lg-6">
+                <input type="text" name="name" placeholder="Name..." class="form-control mb-4" id="username"
+                  style="background-color: transparent;">
+              </div>
+              <div class="col-lg-6">
+                <input type="email" name="Email" id="email" placeholder="Email..." class="form-control mb-4"
+                  style="background-color: transparent;">
               </div>
             </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <textarea name="name" rows="3" cols="10" placeholder="Your message here..."
+                  class="form-control rounded-0" id="message" style="background-color: transparent;"></textarea>
+              </div>
+
+              <button class="btn btn-default mybtn" id="submit">submit</button>
+            </div>
+
+          </form>
         </div>
-            
+      </div>
+      <div class="container">
+        <div class="header">
         </div>
-        
+        <div class="text-center">
+          <address id="contact">
+            <strong>SEAL PIZZA</strong><br>
+            Ngong Lane Plaza<br>
+            Nairobi, 00600-Kilimani<br>
+          </address>
+
+          <address>
+            <strong>Customer Care</strong><br>
+            <a href="mailto:ccayreen24@gmail.com">ccayreen24@gmail.com</a>
+          </address>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
   <script src="js/jquery.js"></script>
   <script src="js/contact.js"></script>
 
